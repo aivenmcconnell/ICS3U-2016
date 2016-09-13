@@ -16,7 +16,7 @@ public class ExampleOne {
 		System.out.println(23%2);	
 		System.out.println(458548%10);
 
-		// Part B
+		// Part B - Hi
 		
 		int num =940132;
 		int digit1 = num/100000 ;

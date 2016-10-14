@@ -13,7 +13,7 @@ public class CrossCountryAssignment {
 		
 		final int time = 60;
 	
-		// Runner 1
+		// Runner 1 //
 		
 		System.out.print("Please enter your first and last name: ");
 		String name1 = scanner. nextLine();

@@ -13,7 +13,7 @@ public class CrossCountryAssignment {
 		
 		final int time = 60;
 	
-		// Runner 1 //
+		// Runner 1
 		
 		System.out.print("Please enter your first and last name: ");
 		String name1 = scanner. nextLine();
@@ -34,7 +34,7 @@ public class CrossCountryAssignment {
 		System.out.print(firstName + ", enter your time to the end of the 5km (mm:ss.sss): ");
 		String time3 = scanner.nextLine();
 		int minutes3 = Integer.parseInt(time3.split(":")[0]);
-		double seconds3 = Double.parseDouble(time3.split(":")[1]);
+		double seconds3 = Double.parseDouble(time3.split(":")[1]); 
 		
 		double minSec1 = (minutes * time)+ seconds;
 		double minSec2 = (minutes2 * time)+ seconds2;
